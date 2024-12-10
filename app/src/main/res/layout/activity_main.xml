@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/img"
+    android:gravity="bottom"
+
+    android:orientation="horizontal">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/note_a"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:text="A"
+
+        android:layout_marginLeft="1sp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/note_b"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1sp"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:text="B"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/note_c"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:text="C"
+        android:layout_marginLeft="1sp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/note_d"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:text="D"
+        android:layout_marginLeft="1sp"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/note_e"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:text="E"
+        android:layout_marginLeft="1sp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/note_f"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black"
+        android:text="F"
+        android:layout_marginLeft="1sp"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/note_g"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/white"
+        android:text="G"
+        android:layout_marginLeft="1sp"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+</LinearLayout>
